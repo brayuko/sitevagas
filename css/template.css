@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {/*corpo do site*/
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*cabeçalho*/
+header {
+    background-color: rgb(96, 162, 184);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.titulodoheader {
+    color: white;
+    text-align: center;
+
+}/*=================menu de acesso================*/
+nav {
+    text-align: center;
+    background-color: white;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    border-bottom: 1px solid black;
+
+}
+a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1em;
+    margin-left: 25px;
+    padding-left:5px;
+    padding-right: 5px;
+}
+a:hover {
+    color: white;
+    background-color: rgb(96, 162, 184);
+    border:2px solid white;
+    attachment: fixed;
+}
+
+main {/*=============corpo do site=============*/
+    max-width: 80%;
+    margin: 0 auto;
+    background-color:white;
+    border-radius: 1.5%;
+    
+}
+h1 {
+
+}
+h2 {
+    font-size: 16px;
+}
+p{
+
+}
+.formContainer {
+    max-width: 230px;
+    background-color: rgba(211, 211, 211, 0.699);
+    padding: 20px;
+    float: right;
+}
+.mb {
+    margin-bottom:15px;
+}
+input, select {
+    width: 100%;
+    box-sizing: border-box;
+    padding:10px;
+    border: none;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    color:white;background-color:rgb(96, 162, 184);
+    font-weight: bold;
+}
+.containerformulario {
+    padding:20px;
+}
+.container {
+    background-image: url("./img/supersoldado.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+article {/*=============começo dos artigos==========*/
+    padding:10px;
+    text-align:justify;
+}
+.artigo1 {/*=============artigo1==================*/
+
+}
+
+section {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:lightblue;
+    padding:10px;
+}
+
+.padrao { 
+    background-color: white;
+
+    font-family: arial, arial, sans-serif;
+
+}
+.padrao p {
+    margin-bottom: 10px;
+}
+.normal {
+
+
+}
+.imagem {
+    background-image: url("/img/marvelvsdc.jpg");
+    background-position: scroll;
+    background-repeat: no-repeat;
+    position: cover;
+    color: white;
+    text-shadow: 2px 1px black;
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+
+footer {
+    background-color: white;
+
+}
+.rodape {
+    color: black;
+    text-align: center;
+    font-size:1.5em;
+    padding-top:20px;
+    padding-bottom: 60px;
+    border-top: 1px solid black;
+
+}
